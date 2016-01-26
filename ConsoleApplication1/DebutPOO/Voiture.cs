@@ -22,14 +22,14 @@ namespace DebutPOO
             
         }
 
-        //ajout d'une propriété accessible en écriture seulement
-        private double acceleration;
+        ////ajout d'une propriété accessible en écriture seulement
+        //private double acceleration;
 
-        public double Acceleration
-        {
+        //public double Acceleration
+        //{
           
-            set { acceleration = value; }
-        }
+        //    set { acceleration = value; }
+        //}
 
         private string marque;
 
@@ -49,7 +49,7 @@ namespace DebutPOO
         //Constructeur par defaut 
         public Voiture()
         {
-            Vitesse = 5;
+            this.Vitesse = 5;
         }
         //création d'un constructeur
         public Voiture(int velocity)
@@ -110,7 +110,18 @@ namespace DebutPOO
         //ajout de la méthode rouler
         public void Rouler()
         {
-            Console.WriteLine("Je roule à " + Vitesse+"km/h");
+            Console.WriteLine("Je roule à " + this.Vitesse+"km/h");
+        }
+
+        public void Accelerer(int acceleration)
+        {
+            this.Vitesse += acceleration;
+            this.Rouler();
+        }
+
+        public void ChangerVitesse(int nouvelleVitesse)
+        {
+            this.Vitesse = nouvelleVitesse;
         }
     }
 

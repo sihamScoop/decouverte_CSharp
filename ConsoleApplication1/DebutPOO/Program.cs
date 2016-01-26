@@ -38,6 +38,27 @@ namespace DebutPOO
             Voiture voitureV = new Voiture(20);
             voitureV.Rouler();
 
+            //Voiture voitureNull = null; 
+            //voitureNull.Rouler(); //opération impossible car l'objet n'est pas instancié
+
+            Console.WriteLine("*******test de nullité d'un objet voiture*******");
+            string prenom = "pipo";
+            Voiture voiturePipo = null;
+            if (prenom == "pipo")
+            {
+                voiturePipo = new Voiture { Vitesse=30 };
+            }
+            if (voiturePipo == null)
+            {
+                Console.WriteLine("Vous n'avez de voiture");
+            }
+            else
+            {
+                voiturePipo.Rouler();
+            }
+            Console.WriteLine("*******Changement de vitesse");
+            voiturePipo.ChangerVitesse(42);
+            voiturePipo.Rouler();
         }
     }
 }
