@@ -20,6 +20,10 @@ namespace DebutPOO
             voiture2.couleur = "noire";
             Console.WriteLine(voiture2.couleur);
 
+            Voiture voiture3 = new Voiture();
+            voiture3.couleur = "bleu";
+            Console.WriteLine(voiture3.couleur);
+
         }
     }
 }
