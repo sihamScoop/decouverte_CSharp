@@ -13,7 +13,7 @@ namespace DebutPOO
             //création d'une instance de la classe voiture
             Voiture voiture1 = new Voiture();
             voiture1.Klaxonner();
-            voiture1.couleur = "rouge vermillon";
+            voiture1.couleur = "rouge vermillon ";
             Console.WriteLine(voiture1.couleur);
 
          
