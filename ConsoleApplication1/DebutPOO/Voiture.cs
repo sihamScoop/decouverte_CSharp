@@ -22,6 +22,43 @@ namespace DebutPOO
             
         }
 
+        //ajout d'une propriété accessible en écriture seulement
+        private double acceleration;
+
+        public double Acceleration
+        {
+          
+            set { acceleration = value; }
+        }
+
+        private string marque;
+
+        public string Marque
+        {
+            get { return marque; }
+            set { marque = value; }
+        }
+        private int vitesse;
+
+        public int Vitesse
+        {
+            get { return vitesse; }
+            set { vitesse = value; }
+        }
+
+        //Constructeur par defaut 
+        public Voiture()
+        {
+            Vitesse = 5;
+        }
+        //création d'un constructeur
+        public Voiture(int velocity)
+        {
+            Vitesse = velocity;
+        }
+
+
+
         public bool VitesseAutorisee(int vitesse)
         {
             //if (vitesse > 90)
@@ -68,6 +105,12 @@ namespace DebutPOO
         private void PrevenirUtilisteur()
         {
             Console.WriteLine("bip bip ");
+        }
+
+        //ajout de la méthode rouler
+        public void Rouler()
+        {
+            Console.WriteLine("Je roule à " + Vitesse+"km/h");
         }
     }
 
