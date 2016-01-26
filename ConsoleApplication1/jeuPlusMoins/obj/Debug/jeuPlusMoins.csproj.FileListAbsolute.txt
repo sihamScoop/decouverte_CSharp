@@ -1,0 +1,9 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\bin\Debug\jeuPlusMoins.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\obj\Debug\jeuPlusMoins.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\bin\Debug\jeuPlusMoins.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\bin\Debug\jeuPlusMoins.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\obj\Debug\jeuPlusMoins.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\jeuPlusMoins\obj\Debug\jeuPlusMoins.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\jeuPlusMoins\bin\Debug\jeuPlusMoins.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\jeuPlusMoins\obj\Debug\jeuPlusMoins.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\jeuPlusMoins\obj\Debug\jeuPlusMoins.pdb
