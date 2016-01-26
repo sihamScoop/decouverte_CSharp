@@ -1,0 +1,6 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\bin\Debug\DebutPOO.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\bin\Debug\DebutPOO.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\bin\Debug\DebutPOO.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\obj\Debug\DebutPOO.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\obj\Debug\DebutPOO.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverteCSharp\ConsoleApplication1\DebutPOO\obj\Debug\DebutPOO.csprojResolveAssemblyReference.cache
