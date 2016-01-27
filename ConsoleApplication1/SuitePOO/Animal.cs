@@ -34,16 +34,34 @@ namespace SuitePOO
         //}
         ////********!fin:version2
 
-        //********!debut:version3
-        protected string prenom;
-        public Animal()
-        {
-            prenom = "Marcel";
-        }
+        ////********!debut:version3
+        //protected string prenom;
+        //public Animal()
+        //{
+        //    prenom = "Marcel";
+        //}
+        //public void Respirer()
+        //{
+        //    Console.WriteLine("Je suis " + prenom + " et je respire");
+        //}
+        ////********!fin:version3
+
+        ////********!debut:version4
+        //public virtual void Manger()
+        //{
+        //    Console.WriteLine("Mettre les aliments dans la bouche");
+        //    Console.WriteLine("Mastiquer");
+        //    Console.WriteLine("Avaler");
+        //    Console.WriteLine("...");
+        //}
+        ////********!fin:version4
+
+        //********!debut:test des variables objet
         public void Respirer()
         {
-            Console.WriteLine("Je suis " + prenom + " et je respire");
+            Console.WriteLine("je respire");
         }
+       
 
 
 
