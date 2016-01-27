@@ -7,3 +7,9 @@ C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte
 C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\donnerAgeOouN.csprojResolveAssemblyReference.cache
 C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Sihem\Documents\Visual Studio 2013\Projects\OpenClassRooms\decouverte_CSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\donnerAgeOouN.csprojResolveAssemblyReference.cache
