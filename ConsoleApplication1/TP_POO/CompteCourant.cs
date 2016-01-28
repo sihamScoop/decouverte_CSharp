@@ -9,25 +9,29 @@ namespace TP_POO
     public class CompteCourant : Compte
     {
 
-        private double decouvert;
+        private decimal decouvert;
 
-        public double _decouvert
-        {
-            get { return decouvert; }
-        }
+        
 
-        public CompteCourant(string nom, double decouvert) : base(nom)
+        public CompteCourant(decimal decouvert)
         {
             this.decouvert = decouvert;
         }
 
-        //redéfinition de la méthode ToString()
-        public override string ToString()
+        public CompteCourant()
         {
-            string description_compte_courant = "Le compte est la propriété de " + this._nomProprio + " , dont le solde est de : " + this._solde;
-            description_compte_courant += "\n sont droit au decouvert est a : " + this._decouvert;
-            description_compte_courant += "\n la liste des opération est : "+ AffichageListe(listeOperation);
-            return description_compte_courant;
+            // TODO: Complete member initialization
+        }
+
+        public override void AfficherResumer()
+        {
+            Console.WriteLine("*************");
+            Console.WriteLine("Le compte courant de " + this._nomProprio);
+            Console.WriteLine("\t Solde : " + this._solde);
+            Console.WriteLine("\t découvert autorisé : " + this.decouvert);
+            Console.WriteLine("\n Les opérations éféctuées sur se compte sont :");
+            Outils.AffichageOperations(listeOperation); //utilisation de la méthode static présente dans la classe Outils
+            Console.WriteLine("*************");
         }
     }
 }
