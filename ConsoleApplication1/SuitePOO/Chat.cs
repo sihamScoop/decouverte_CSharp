@@ -25,11 +25,18 @@ namespace SuitePOO
         //}
         ////********!fin:version2
 
-        //********!debut:version3
-        public Chat(string prenomChat)
-        {
-            this.prenom = prenomChat;
-        }
+        ////********!debut:version3
+        //public Chat(string prenomChat)
+        //{
+        //    this.prenom = prenomChat;
+        //}
+        //public void Miauler()
+        //{
+        //    Console.WriteLine("Miaou !!");
+        //}
+        ////********!fin:version3
+
+        //********!debut:test des variables objet
         public void Miauler()
         {
             Console.WriteLine("Miaou !!");
