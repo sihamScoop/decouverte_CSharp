@@ -32,13 +32,25 @@ namespace POO_Avancee
         //}
         ////********!fin:version2
 
-        //********!debut:version3
+        //********!debut:trier une liste ou tableau d'objets
+        //redéfinition de la méthode compareTo pour identifier le critère de comparaison
         public int CompareTo(object obj)
         {
-            throw new NotImplementedException();
+            Voiture voite = (Voiture)obj;
+            //si on veut faire un tri par ordre decroissant il suffit d'inverser -1 et 1
+            //if (this.vitesse < voite.vitesse) //le critère choisi ici est la vitesse
+            //{
+            //    return -1; 
+            //}
+            //if (this.vitesse>voite.vitesse)
+            //{
+            //    return 1;
+            //}
+            //return 0;
+            //autre écriture pour faire le tri par ordre croissant
+            return this.vitesse.CompareTo(voite.vitesse);
         }
-
-        //********!fin:version3
+        //********!fin:trier une liste ou tableau d'objets
 
 
         //********!debut:version3
