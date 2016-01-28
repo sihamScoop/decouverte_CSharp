@@ -40,11 +40,65 @@ namespace POO_Avancee
             //Console.WriteLine(voiture2.GetHashCode());
             ////********!fin:version2
 
-            //********!debut:version3
-            //********!fin:version3
+            ////********!debut:trier une liste ou tableau d'objets
+            //Voiture voit1 = new Voiture { vitesse = 100 };
+            //Voiture voit2 = new Voiture { vitesse = 40 };
+            //Voiture voit3 = new Voiture { vitesse = 10 };
+            //Voiture voit4 = new Voiture { vitesse = 40 };
+            //Voiture voit5 = new Voiture { vitesse = 50 };
+            //Voiture[] TabVoiture = new Voiture[] { voit1,voit2,voit3,voit4,voit5};
+            ////affichage des élément du tableau
+            //int i = 1;
+            //foreach (Voiture car in TabVoiture)
+            //{
+            //    Console.WriteLine(i + " " + car.vitesse);
+            //    i++;
+            //}
+            //Console.WriteLine("lancement du tri");
+            ////lancement du comparateur  grace à l'appel de la méthode sort
+            //Array.Sort(TabVoiture);
+            ////affichage des élément du tableau
+            //int j = 1;
+            //foreach (Voiture car in TabVoiture)
+            //{
+            //    Console.WriteLine(j +" "+ car.vitesse);
+            //    j++;
+            //}
+            ////********!fin:trier une liste ou tableau d'objets
 
-            //********!debut:version3
-            //********!fin:version3
+            ////********!debut:version3 : implémentation d'une interface
+            //IVolant oiseau = new Oiseau { nombrePropulseur = 2 };
+            //oiseau.Voler();
+
+            //Oiseau oiseau1 = new Oiseau { nombrePropulseur = 2 };
+            //Avion avion1 = new Avion { nombrePropulseur = 4 , nomCommandant="nico"};
+
+            //List<IVolant> listVolants = new List<IVolant>();
+            //listVolants.Add(oiseau1);
+            //listVolants.Add(avion1);
+            //foreach (IVolant volant in listVolants)
+            //{
+            //    volant.Voler();
+            //    Avion avionCast = volant as Avion;
+            //    if (avionCast != null)
+            //    {
+            //        Console.WriteLine("nom du commandant" + avionCast.nomCommandant);
+            //    }
+            //}
+            ////********!fin:version3
+
+            ////********!debut:version4 : ajout d'une interface qui herite d'une interface
+            //AvionMoteur avion2 = new AvionMoteur { nombrePropulseur = 3 };
+            //avion2.Voler();
+            //avion2.DemarrerMoteur();
+            ////********!fin:version4
+
+            //********!debut:version5
+            Avion2interface avionVolanatRoulant = new Avion2interface {nombrePropulseur = 4 };
+            avionVolanatRoulant.DemarrerMoteur();
+            avionVolanatRoulant.Rouler();
+            avionVolanatRoulant.Voler();
+            //********!fin:version5
 
             Console.ReadLine();
         }
