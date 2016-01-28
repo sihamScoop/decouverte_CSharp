@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Avion.cs" />
+    <Compile Include="Avion2interface.cs" />
+    <Compile Include="AvionMoteur.cs" />
+    <Compile Include="IRoulant.cs" />
+    <Compile Include="IVolant.cs" />
+    <Compile Include="IVolantMotorise.cs" />
+    <Compile Include="Oiseau.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Voiture.cs" />
