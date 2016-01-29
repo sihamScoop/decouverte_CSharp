@@ -9,10 +9,18 @@ namespace TP_POO
     public class BeneficeAleatoire:ICalculateur_Benef
     {
         private double taux;
-        public double _taux
+        public double Taux
         {
             get { return taux; }
         }
+
+        //double ICalculateur_Benef.Taux
+        //{
+        //    get
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+        //}
 
         private Random rand;
         public BeneficeAleatoire()

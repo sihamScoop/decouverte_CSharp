@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace TP_POO
 {
-    class CompteEpargne:Compte
+    public class CompteEpargne:Compte
     {
         private double taux_abondement;
 
-        public double _taux_abondement
-        {
-            get { return taux_abondement; }
-            set { taux_abondement = value; }
-        }
+        //public double _taux_abondement
+        //{
+        //    get { return taux_abondement; }
+        //    set { taux_abondement = value; }
+        //}
 
 
         public CompteEpargne( double taux)
