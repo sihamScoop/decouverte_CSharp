@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TP_POO</RootNamespace>
     <AssemblyName>TP_POO</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AucunBenef.cs" />
+    <Compile Include="BeneficeAleatoire.cs" />
+    <Compile Include="BeneficeTauxFixe.cs" />
     <Compile Include="Compte.cs" />
     <Compile Include="CompteCourant.cs" />
     <Compile Include="CompteEpargne.cs" />
+    <Compile Include="ICalculateur_Benef.cs" />
+    <Compile Include="LivretToutBenef.cs" />
     <Compile Include="Mouvement.cs" />
     <Compile Include="Operation.cs" />
+    <Compile Include="Outils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
