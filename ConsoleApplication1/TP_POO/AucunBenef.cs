@@ -14,7 +14,7 @@ namespace TP_POO
             return solde;
         }
 
-        public double taux
+        public double Taux
         {
             get { return 0; }
         }

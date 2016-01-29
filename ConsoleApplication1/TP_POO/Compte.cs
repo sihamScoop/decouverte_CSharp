@@ -76,11 +76,11 @@ namespace TP_POO
             {
                 if (oper.typeMouvement == Mouvement.Credit)
                 {
-                    Console.WriteLine("\t + ");
+                    Console.Write("\t + ");
                 }
                 else
                 {
-                    Console.WriteLine("\t - ");
+                    Console.Write("\t - ");
                 }
                 Console.WriteLine(oper._montant);
             }

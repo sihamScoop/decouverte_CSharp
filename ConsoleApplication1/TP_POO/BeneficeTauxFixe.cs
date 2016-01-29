@@ -9,10 +9,12 @@ namespace TP_POO
     public class BeneficeTauxFixe:ICalculateur_Benef
     {
         private double taux;
-        public double _taux
+        public double Taux
         {
             get { return taux; }
         }
+
+        
 
         public BeneficeTauxFixe(double tauxFixe)
         {

@@ -28,7 +28,7 @@ namespace TP_POO
             Console.WriteLine("$$$$$$$$$$$");
             Console.WriteLine("Livret toutBénef de " + this._nomProprio);
             Console.WriteLine("\t Solde : " + this._solde);
-            Console.WriteLine("\t Taux: "+ calculateurBenef.taux);
+            Console.WriteLine("\t Taux: "+ calculateurBenef.Taux);
             AffichageOperations(); //utilisation de la méthode static présente dans la classe Outils
             Console.WriteLine("*************");
         }
