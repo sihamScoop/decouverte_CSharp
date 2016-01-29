@@ -9,6 +9,6 @@ namespace TP_POO
     public interface ICalculateur_Benef
     {
         decimal CalculBenefice(decimal solde);
-        double taux { get; }
+        double Taux { get; }
     }
 }
