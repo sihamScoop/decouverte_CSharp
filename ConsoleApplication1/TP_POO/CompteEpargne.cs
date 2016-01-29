@@ -17,18 +17,28 @@ namespace TP_POO
         }
 
 
-        public CompteEpargne(string nom, double taux):base(nom)
+        public CompteEpargne( double taux)
         {
-            this.taux_abondement = taux / 100;
+            this.taux_abondement = taux ;
         }
 
-        //redéfinition de la méthode ToString()
-        public override string ToString()
+        public override decimal _solde
         {
-            string description_compte_courant = "Le compte est la propriété de " + this._nomProprio + " , dont le solde est de : " + this._solde;
-            description_compte_courant += "\r sont taux d'abondement est de : " + this._taux_abondement;
-            description_compte_courant += "\r la liste des opération est : " + AffichageListe(listeOperation);
-            return description_compte_courant;
+            get
+            {
+                return base._solde * (decimal)(1 + taux_abondement); //appel du solde de l a classe mère
+            }
+        }
+
+        public override void AfficherResumer()
+        {
+            Console.WriteLine("*************");
+            Console.WriteLine("Le compte d'épargne de " + this._nomProprio);
+            Console.WriteLine("\t Solde : "+ this._solde);
+            Console.WriteLine("\t Taux : "+ this.taux_abondement);
+            Console.WriteLine("\n Les opérations éféctuées sur se compte sont :");
+            AffichageOperations(); //appel de la méthode présente dans la classe compte
+            Console.WriteLine("*************");
         }
     }
 }

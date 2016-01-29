@@ -10,21 +10,34 @@ namespace TP_POO
     {
         static void Main(string[] args)
         {
-            CompteCourant compteNicolasC = new CompteCourant("Nicolas", 2000);
-            CompteEpargne compteNicolasE = new CompteEpargne("Nicolas", 2);
-            CompteCourant compteJermie = new CompteCourant("jeremie", 500);
+            CompteCourant compteNicolasC = new CompteCourant(2000) { _nomProprio = "Nicolas" };
+            CompteEpargne compteNicolasE = new CompteEpargne(0.02) { _nomProprio = "Nicolas" };
+            CompteCourant compteJermie = new CompteCourant(500) { _nomProprio = "Jeremie" };
+            
             compteNicolasC.Crediter(100);
             compteNicolasC.Debiter(50);
-            compteNicolasC.Crediter(20, compteNicolasE);
+            
+            compteNicolasE.Crediter(20, compteNicolasC);
             compteNicolasE.Crediter(100);
+            
             compteNicolasE.Debiter(20, compteNicolasC);
 
-            compteJermie.Crediter(500);
-            compteJermie.Crediter(200, compteNicolasC);
+            compteJermie.Debiter(500);
+            compteJermie.Debiter(200, compteNicolasC);
 
-            Console.WriteLine(compteNicolasC.ToString());
-            Console.WriteLine(compteNicolasE.ToString());
-            Console.WriteLine(compteJermie.ToString());
+            Console.WriteLine("résumé du compte courant  " + compteNicolasC._nomProprio );
+            compteNicolasC.AfficherResumer();
+            
+            Console.WriteLine("résumé du compte courant  " + compteNicolasE._nomProprio);
+            compteNicolasE.AfficherResumer();
+
+            ICalculateur_Benef beneficeTauxFixe = new BeneficeTauxFixe(0.275);
+            LivretToutBenef livretToutBenefNicolas = new LivretToutBenef(beneficeTauxFixe);
+            livretToutBenefNicolas.Crediter(800);
+            livretToutBenefNicolas.Debiter(200);
+
+            Console.WriteLine("résumé du livret TouBénef");
+            livretToutBenefNicolas.AfficherResumer();
             Console.ReadLine();
         }
     }

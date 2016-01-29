@@ -11,7 +11,7 @@ namespace TP_POO
 
         private string nomProprio;
 
-        protected string _nomProprio
+        public string _nomProprio
         {
             get { return nomProprio; }
             set { nomProprio = value; }
@@ -20,7 +20,7 @@ namespace TP_POO
 
         protected List<Operation> listeOperation;
 
-        private decimal solde;
+        
 
         public virtual decimal _solde
         {
@@ -30,11 +30,11 @@ namespace TP_POO
                 {
                     if (oper.typeMouvement == Mouvement.Credit)
                     {
-                        total += oper.Montant;
+                        total += oper._montant;
                     }
                     else
                     {
-                        total -= oper.Montant;
+                        total -= oper._montant;
                     }
 
                 }
@@ -42,61 +42,57 @@ namespace TP_POO
             }
         }
 
+       
+
         public Compte()
         {
-            this.solde = 0;
+            
+            listeOperation = new List<Operation>();
         }
 
-        public Compte(string nom)
+        public void Crediter(decimal somme)
         {
-            this.nomProprio = nom;
-            this.solde = 0;
-            listeOperation = new List<Mouvement>();
+            EnregistrementOperation(Mouvement.Credit, somme);
+        }
+       public void Crediter(decimal somme, Compte compte)
+        {
+            Crediter(somme);
+            compte.Debiter(somme);
         }
 
-        public void Crediter(double somme)
+        public void Debiter(decimal somme)
         {
-            this.solde = this.solde + somme;
-            Mouvement crediter = new Mouvement(somme, true);
-            listeOperation.Add(crediter);
+            EnregistrementOperation(Mouvement.Debit, somme);
         }
-       public void Crediter(double somme, Compte compte)
+        public void Debiter(decimal somme, Compte compte)
         {
-            this.solde = this.solde + somme;
-            compte.solde = compte.solde - somme;
-            Mouvement crediter = new Mouvement(somme, true);
-            listeOperation.Add(crediter);
+            Debiter(somme);
+            compte.Crediter(somme);
         }
 
-        public void Debiter(double somme)
+        protected void AffichageOperations()
         {
-            this.solde = this.solde - somme;
-            Mouvement debiter = new Mouvement(somme, false);
-            listeOperation.Add(debiter);
-        }
-        public void Debiter(double somme, Compte compte)
-        {
-            this.solde = this.solde - somme;
-            compte.solde = compte.solde + somme;
-            Mouvement debiter = new Mouvement(somme, false);
-            listeOperation.Add(debiter);
-        }
-
-        public string AffichageListe(List<Mouvement> liste)
-        {
-            string descrip ="";
-            foreach (Mouvement oper in liste)
+            foreach (Operation oper in listeOperation)
             {
-                descrip += " * "+ oper.ToString();
+                if (oper.typeMouvement == Mouvement.Credit)
+                {
+                    Console.WriteLine("\t + ");
+                }
+                else
+                {
+                    Console.WriteLine("\t - ");
+                }
+                Console.WriteLine(oper._montant);
             }
-            return descrip;
         }
 
-        //redéfinition de la méthode ToString()
-        public override string ToString()
+        private void EnregistrementOperation(Mouvement typeMouv, decimal montant)
         {
-            string description_compte = "Le compte est la propriété de " + this.nomProprio + " , dont le solde est de : " + this.solde ;
-            return description_compte;
+            Operation oper = new Operation { _montant = montant, typeMouvement = typeMouv };
+            listeOperation.Add(oper);
+
         }
+
+        public abstract void AfficherResumer();
     }
 }

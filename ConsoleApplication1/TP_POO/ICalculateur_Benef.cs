@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP_POO
 {
-    public class Operation
-    { 
-        public Mouvement typeMouvement { get; set; }
-        public decimal _montant { get; set; }
+    public interface ICalculateur_Benef
+    {
+        decimal CalculBenefice(decimal solde);
+        double taux { get; }
     }
 }
