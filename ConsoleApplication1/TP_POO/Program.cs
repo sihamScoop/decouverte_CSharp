@@ -31,6 +31,8 @@ namespace TP_POO
             Console.WriteLine("résumé du compte courant  " + compteNicolasE._nomProprio);
             compteNicolasE.AfficherResumer();
 
+            Console.WriteLine("************************$$$$$$$$$$$$$$$$$$$$$$$$$*****************************");
+
             ICalculateur_Benef beneficeTauxFixe = new BeneficeTauxFixe(0.275);
             LivretToutBenef livretToutBenefNicolas = new LivretToutBenef(beneficeTauxFixe);
             livretToutBenefNicolas.Crediter(800);

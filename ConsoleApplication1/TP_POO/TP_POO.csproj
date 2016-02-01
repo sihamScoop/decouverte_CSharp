@@ -49,7 +49,9 @@
     <Compile Include="BeneficeTauxFixe.cs" />
     <Compile Include="Compte.cs" />
     <Compile Include="CompteCourant.cs" />
+    <Compile Include="CompteCourant2.cs" />
     <Compile Include="CompteEpargne.cs" />
+    <Compile Include="CompteEpargne2.cs" />
     <Compile Include="ICalculateur_Benef.cs" />
     <Compile Include="LivretToutBenef.cs" />
     <Compile Include="Mouvement.cs" />
