@@ -1,0 +1,6 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\bin\Debug\TP_Type_Generique.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\bin\Debug\TP_Type_Generique.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\bin\Debug\TP_Type_Generique.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\obj\Debug\TP_Type_Generique.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\obj\Debug\TP_Type_Generique.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\TP_Type_Generique\obj\Debug\TP_Type_Generique.pdb
