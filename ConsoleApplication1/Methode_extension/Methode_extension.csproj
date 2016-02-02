@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22DA2B47-518B-4305-8ACE-A95E623A188E}</ProjectGuid>
+    <ProjectGuid>{02D6766A-9C40-4CE1-8AF8-EFD4A83B1C6D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TP_Type_Generique</RootNamespace>
-    <AssemblyName>TP_Type_Generique</AssemblyName>
+    <RootNamespace>Methode_extension</RootNamespace>
+    <AssemblyName>Methode_extension</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ListeChainee.cs" />
-    <Compile Include="ListeChaineeEnumerator.cs" />
+    <Compile Include="Avion.cs" />
+    <Compile Include="Encodage.cs" />
+    <Compile Include="Extension_Inter.cs" />
+    <Compile Include="IVolant.cs" />
+    <Compile Include="Oiseau.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Chainage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

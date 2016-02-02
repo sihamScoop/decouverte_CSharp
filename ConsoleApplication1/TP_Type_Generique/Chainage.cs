@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP_Type_Generique
 {
-    class Chainage<T>
+    public class Chainage<T>
     {
         public Chainage<T> precedent { get; set; }
         public Chainage<T> suivant { get; set; }
