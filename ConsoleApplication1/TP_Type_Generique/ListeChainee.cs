@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace TP_Type_Generique
 {
-    class ListeChainee<T>
+    public class ListeChainee<T> : IEnumerable<T>
     {
-       public Chainage<T> _premier { get; private set; }
+        public Chainage<T> _premier { get; private set; }
 
         public Chainage<T> _dernier
         {
@@ -40,10 +41,10 @@ namespace TP_Type_Generique
             }
         }
 
-        public Chainage<T> ObtenirElement (int indice)
+        public Chainage<T> ObtenirElement(int indice)
         {
             Chainage<T> temp = _premier;
-            for (int i = 1; i  <= indice; i ++)
+            for (int i = 1; i <= indice; i++)
             {
                 if (temp == null)
                 {
@@ -69,7 +70,7 @@ namespace TP_Type_Generique
                     _premier = new Chainage<T> { suivant = temp, valeur = element };
                     temp.precedent = _premier;
                 }
-                
+
             }
             else
             {
@@ -86,6 +87,32 @@ namespace TP_Type_Generique
                 }
             }
 
+        }
+
+        //public IEnumerator<T> GetEnumerator()
+        //{
+        //    return new ListeChaineeEnumerator<T>(this);
+        //}
+
+        //IEnumerator IEnumerable.GetEnumerator()
+        //{
+        //    return new ListeChaineeEnumerator<T>(this);
+        //}
+        //version amélioré: plus besoin de classe listeChaineeEnumerator
+        public IEnumerator<T> GetEnumerator()
+        {
+            Chainage<T> courant = _premier;
+            while (courant != null)
+            {
+                yield return courant.valeur;
+                courant = courant.suivant;
+            }
+            
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

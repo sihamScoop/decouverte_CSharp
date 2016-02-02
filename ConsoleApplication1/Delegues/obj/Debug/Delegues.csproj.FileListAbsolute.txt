@@ -1,0 +1,6 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\bin\Debug\Delegues.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\bin\Debug\Delegues.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\bin\Debug\Delegues.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\obj\Debug\Delegues.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\obj\Debug\Delegues.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Delegues\obj\Debug\Delegues.pdb
