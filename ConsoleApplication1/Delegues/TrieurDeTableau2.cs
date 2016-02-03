@@ -74,5 +74,55 @@ namespace Delegues
             });
         }
         //********!fin:version2
+
+
+        //********!debut:version3 : utilisation des expression lambda
+        private delegate void DelegateTri(int[] tab);
+        DelegateTri tri = delegate (int[] tableau)
+        {
+            Array.Sort(tableau);
+        };
+        //on peut réecrire cette expression comme suit
+        DelegateTri triLambda = (leTableu) => 
+                            {
+                                Array.Sort(leTableu);
+                            };
+
+        private void AffichageTri2(int[] tab, DelegateTri monDelegate)
+        {
+            monDelegate(tab);
+            foreach (int item in tab)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        //réecriture de la méthode AffichageTri2 grace à la méthode lambda
+
+
+        public void TriAvantLambda(int[] tab)
+        {
+            DelegateTri tri = delegate (int[] tableau)
+                                {
+                                    Array.Sort(tableau);
+                                };
+
+            AffichageTri2(tab, tri);
+        }
+
+        public void TriApresLambda(int[] tab)
+        {
+            DelegateTri triLambda = (leTableu) =>
+                                    {
+                                        Array.Sort(leTableu);
+                                    };
+            AffichageTri2(tab, triLambda);
+        }
+        //réecriture encore mieux
+        public void TriApresDoubleLambda(int[] tab)
+        {            
+            AffichageTri2(tab, (leTableu) => { Array.Sort(leTableu);});
+        }
+
+        //********!fin:version3
     }
 }

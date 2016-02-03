@@ -1,0 +1,6 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\bin\Debug\Exceptions.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\bin\Debug\Exceptions.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\obj\Debug\Exceptions.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\obj\Debug\Exceptions.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Exceptions\obj\Debug\Exceptions.pdb
