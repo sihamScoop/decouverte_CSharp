@@ -1,0 +1,6 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\bin\Debug\Tp_meteo_moi.exe.config
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\bin\Debug\Tp_meteo_moi.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\bin\Debug\Tp_meteo_moi.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\obj\Debug\Tp_meteo_moi.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\obj\Debug\Tp_meteo_moi.exe
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\Tp_meteo_moi\obj\Debug\Tp_meteo_moi.pdb
