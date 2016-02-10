@@ -1,0 +1,9 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\MathTests.Unit.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\MathTests.Unit.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\MaBibliothequeATester.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\nunit.framework.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\MaBibliothequeATester.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\bin\Debug\nunit.framework.xml
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\obj\Debug\MathTests.Unit.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\obj\Debug\MathTests.Unit.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MathTests.Unit\obj\Debug\MathTests.Unit.pdb

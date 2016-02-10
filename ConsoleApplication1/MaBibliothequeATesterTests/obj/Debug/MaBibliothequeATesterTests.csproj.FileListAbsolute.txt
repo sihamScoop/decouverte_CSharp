@@ -1,0 +1,8 @@
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\bin\Debug\MaBibliothequeATesterTests.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\bin\Debug\MaBibliothequeATesterTests.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\bin\Debug\MaBibliothequeATester.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\bin\Debug\MaBibliothequeATester.pdb
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\obj\Debug\MaBibliothequeATesterTests.csprojResolveAssemblyReference.cache
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\obj\Debug\MaBibliothequeATesterTests.dll
+C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1\MaBibliothequeATesterTests\obj\Debug\MaBibliothequeATesterTests.pdb
