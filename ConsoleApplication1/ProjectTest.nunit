@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" processModel="Default" domainUsage="Default" appbase="C:\Users\CDISiham\Documents\Visual Studio 2015\Projects\OpenClassroom\decouverte_CSharp\ConsoleApplication1" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="MathTests.Unit\obj\Debug\MathTests.Unit.dll" />
+    <assembly path="MathTests.Unit\bin\Debug\MathTests.Unit.dll" />
+    <assembly path="MaBibliothequeATester\obj\Debug\MaBibliothequeATester.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>
