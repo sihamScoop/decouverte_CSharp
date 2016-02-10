@@ -189,6 +189,51 @@ namespace LinQ
             {
                 Console.WriteLine(nicolas.identifiant);
             }
+
+            Console.WriteLine("\n*****************Utilisation du mots clé : Count ****************\n");
+            //Count() permet d'obtenir le nombre d'éléments d'une source de données suivant un critère
+            int nombreClientMajeur = listeClient.Count(client => client.age >= 18);
+            Console.WriteLine("le nombre de clients majeur est : " + nombreClientMajeur);
+            var requeteMajeur = listeClient.Where(cli => cli.age>=18).Select(cli => new { cli.age, cli.nom});
+            foreach (var i in requeteMajeur)
+            {
+                Console.WriteLine("nom : "+ i.nom + " age : " + i.age);
+            }
+
+            Console.WriteLine("\n*****************Utilisation du mots clé : ToList() et ToArray()****************\n");
+            //permet de forcer la requète a être mise dans une liste ou dans un tableau
+            List<Client> listeMajeur = listeClient.OrderByDescending(cli => cli.age).Where(cli => cli.age >= 18).Take(5).ToList();
+            Console.WriteLine("\t En liste :");
+            foreach (Client item in listeMajeur)
+            {
+                Console.WriteLine("- " + item.nom + " -> " + item.age);
+            }
+            Console.WriteLine("\t En tableau :");
+            Client[] tablClient = listeClient.OrderByDescending(cli => cli.age).Where(cli => cli.age >= 18).Take(5).ToArray();
+            foreach (Client item in tablClient)
+            {
+                Console.WriteLine("- " + item.nom + " -> " + item.age);
+            }
+
+             Console.WriteLine("\n*****************Utilisation du mots clé : yield (exécution différée)****************\n");
+            Console.WriteLine("méthode classique");
+            List<int> listeDesEntier = new List<int> { 4, 6, 1, 9, 5, 15, 8, 3 };
+            listeDesEntier.Sort();
+            listeDesEntier.Add(7);
+            foreach (int item in listeDesEntier)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("l'ajout de 7 se fait après le tri de la liste \n");
+            Console.WriteLine("méthode avec execution différée");
+            var requetDiff = listeDesEntier.OrderBy(e => e);
+            listeDesEntier.Add(7);
+            foreach (int item in requetDiff)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("la liste est trié malgré l'addition du 7 après");
+
             Console.ReadLine();
         }
     }
